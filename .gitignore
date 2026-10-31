@@ -1,0 +1,32 @@
+# Secretos locales de desarrollo (NUNCA versionar)
+.secrets/
+
+# Capturas de smoke (pueden contener nombres de ficheros personales)
+docs/smoke/
+
+# Toolchain y cachés locales (no versionar)
+.toolchain/
+.gradle-home/
+.tmp-home/
+.tmp/
+local.properties
+
+# Gradle / Android
+.gradle/
+build/
+captures/
+*.apk
+*.aab
+*.ap_
+*.dex
+*.class
+
+# IDE
+.idea/
+*.iml
+.vscode/
+.kotlin/
+
+# SO
+.DS_Store
+*~

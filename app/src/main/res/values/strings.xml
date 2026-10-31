@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Huginn</string>
+
+    <!-- Root / list -->
+    <string name="storage_local">Local storage</string>
+    <string name="choose_local_first">Choose local folder</string>
+    <string name="choose_local">Choose another local folder</string>
+    <string name="choose_local_sub">SAF · persistent permission</string>
+    <string name="recents">Recents</string>
+    <string name="recents_sub">%1$d items opened</string>
+    <string name="favorites">Favorites</string>
+    <string name="favorites_sub">%1$d items</string>
+    <string name="settings">Settings</string>
+    <string name="settings_sub">cache · SMB servers</string>
+    <string name="dir">folder</string>
+    <string name="image">image</string>
+    <string name="audio">audio</string>
+    <string name="video">video</string>
+    <string name="file">file</string>
+    <string name="status_count">%1$d items · %2$s</string>
+    <string name="status_touch">tap = select · 2× = open</string>
+    <string name="loading">Loading…</string>
+    <string name="empty_items">No items</string>
+    <string name="empty_gallery_sub">Subfolders are hidden in Gallery view</string>
+    <string name="retry">Retry (A)</string>
+    <string name="retry_hint">B to go back · ⟳ or A to retry</string>
+    <string name="empty_recents_hint">No recents yet: open a file or folder</string>
+    <string name="empty_favorites_hint">No favorites: select something and use ⋯ → Add to favorites</string>
+    <string name="empty_search_hint">Type on the top screen to search</string>
+    <string name="touch_player_focus">tap = player focus</string>
+    <string name="status_playback_mini">%1$s / %2$s · L1/R1 ±10 s · L2/R2 ‹ ›</string>
+
+    <!-- Top panel: directory / entry -->
+    <string name="chip_dirs">%1$d folders</string>
+    <string name="chip_files">%1$d files</string>
+    <string name="detail_source">Source</string>
+    <string name="detail_sort">Sort</string>
+    <string name="detail_permissions">Permissions</string>
+    <string name="read_only">read-only</string>
+    <string name="detail_hint">Select an item to see its details</string>
+    <string name="detail_duration">Duration</string>
+    <string name="detail_dimensions">Dimensions</string>
+    <string name="detail_resolution">Resolution</string>
+    <string name="detail_metadata">Metadata</string>
+    <string name="detail_modified">Modified</string>
+    <string name="detail_path">Path</string>
+    <string name="hint_file">A open · B back · ↑↓ move</string>
+    <string name="generating">Generating…</string>
+    <string name="image_counter">%1$d / %2$d · %3$s</string>
+    <string name="image_hint">pinch / double tap: zoom · drag while zoomed · ← → navigate · B close</string>
+    <string name="track_audio">AUDIO</string>
+    <string name="track_subtitles">SUBTITLES</string>
+    <string name="track_close_hint">Tap outside or B to close</string>
+    <string name="track_audio_short">Audio</string>
+    <string name="track_subtitles_short">Subtitles</string>
+    <string name="video_hint">X play/pause · L1/R1 ±10 s · L2/R2 ‹ › · Y controls · Start tracks · B close</string>
+    <string name="video_hint_compact">X play/pause · L1/R1 ±10 s · B close</string>
+    <string name="status_playing_time">%1$s / %2$s · %3$s</string>
+    <string name="playing">playing</string>
+    <string name="paused">paused</string>
+    <string name="lyrics">LYRICS</string>
+    <string name="lyrics_synced">synced · .lrc</string>
+    <string name="lyrics_static">static · .txt</string>
+
+    <!-- SMB server form -->
+    <string name="server_new">New SMB server</string>
+    <string name="server_edit">Edit SMB server</string>
+    <string name="server_password_note">The password is encrypted with AES-GCM and the key lives in Android Keystore; it is never stored in plain text.</string>
+    <string name="form_name">Name (optional)</string>
+    <string name="form_name_hint">Living room NAS</string>
+    <string name="form_host">Host</string>
+    <string name="form_share">Shared folder (optional)</string>
+    <string name="form_share_hint">Data · empty = list server resources</string>
+    <string name="form_user">User (empty = guest)</string>
+    <string name="form_user_hint">user</string>
+    <string name="form_domain">Domain (optional)</string>
+    <string name="form_password">Password</string>
+    <string name="form_password_keep">Password (empty = keep it)</string>
+    <string name="form_password_hint">•••••••• (stored)</string>
+    <string name="form_smb1">SMB1 (old servers only; SMB2+ required by default)</string>
+    <string name="form_save">Save</string>
+    <string name="form_cancel">Cancel</string>
+    <string name="form_delete_confirm">Sure? Tap to delete</string>
+    <string name="form_delete">Delete server</string>
+    <string name="form_keyboard_hint">On-screen keyboard to type · gamepad: A save · B cancel</string>
+
+    <!-- External download -->
+    <string name="external_preparing">Preparing to open on the top screen…</string>
+    <string name="external_message_default">Preparing to open on the top screen…</string>
+    <string name="external_cancel">Cancel</string>
+    <string name="external_hint">B cancels · it will open on the top screen</string>
+
+    <!-- Search -->
+    <string name="search_title">Search</string>
+    <string name="search_in">in %1$s</string>
+    <string name="search_label">Text to search (≥ 2 letters)</string>
+    <string name="search_min">Type at least 2 letters</string>
+    <string name="searching">Searching…</string>
+    <string name="search_results">%1$d results (pick one below with the d-pad)</string>
+    <string name="search_no_results">No results</string>
+    <string name="search_hint">A opens the result · B closes search</string>
+    <string name="search_limit_hint">No results (limit: %1$d items)</string>
+    <string name="search_local_only">You need a local (SAF) folder to search</string>
+
+    <!-- Button mapping -->
+    <string name="keymap_title">Button mapping</string>
+    <string name="keymap_sub">press A on an action, then the button</string>
+    <string name="keymap_learn">Press the button you want to assign · Cancel to exit</string>
+    <string name="keymap_now">Now: %1$s</string>
+    <string name="keymap_assigned">“%1$s” is now %2$s</string>
+    <string name="keymap_reset">Restore default mapping</string>
+    <string name="keymap_reset_sub">clears all changes</string>
+    <string name="keymap_restored">Default button mapping restored</string>
+    <string name="action_up">Up</string>
+    <string name="action_down">Down</string>
+    <string name="action_left">Left</string>
+    <string name="action_right">Right</string>
+    <string name="action_accept">A (accept)</string>
+    <string name="action_back">B (back)</string>
+    <string name="action_play_pause">X (play/pause)</string>
+    <string name="action_toggle_controls">Y (controls)</string>
+    <string name="action_seek_back">L1 (−10 s)</string>
+    <string name="action_seek_forward">R1 (+10 s)</string>
+    <string name="action_prev">L2 (previous)</string>
+    <string name="action_next">R2 (next)</string>
+    <string name="action_focus">Select (focus)</string>
+    <string name="action_menu">Start (menu)</string>
+
+    <string name="source_home">Home</string>
+    <string name="search_local_scope">local search</string>
+    <string name="hint_flat_accept_back">A accept · B back</string>
+    <string name="keymap_hint">A pick action · then press the button · B back</string>
+    <string name="hint_virtual_list">A open · B back · mark favorites from the menu</string>
+
+    <!-- Sheets / menu -->
+    <string name="sheet_sort">Sort</string>
+    <string name="sort_name">Name</string>
+    <string name="sort_date">Date</string>
+    <string name="sort_size">Size</string>
+    <string name="sort_type">Type</string>
+    <string name="sort_ascending">Ascending</string>
+    <string name="sort_descending">Descending</string>
+    <string name="sort_asc">asc</string>
+    <string name="sort_desc">desc</string>
+    <string name="sheet_menu">Menu</string>
+    <string name="menu_view">Change view (now: %1$s)</string>
+    <string name="menu_sort">Sort…</string>
+    <string name="menu_search">Search here…</string>
+    <string name="menu_cache">Clear cache</string>
+    <string name="menu_fav_add">Add to favorites</string>
+    <string name="menu_fav_remove">Remove from favorites</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_exit">Exit</string>
+    <string name="view_list">List</string>
+    <string name="view_grid">Grid</string>
+    <string name="view_gallery">Gallery</string>
+    <string name="open_with">Open with</string>
+    <string name="open_with_remember">Remember for this type</string>
+    <string name="no_app_for">No installed app can open “%1$s”</string>
+
+    <!-- Settings -->
+    <string name="settings_clear_cache">Clear cache</string>
+    <string name="settings_clear_cache_sub">thumbnails · external · metadata</string>
+    <string name="settings_smb">SMB servers</string>
+    <string name="settings_smb_sub">add/edit/delete · encrypted credentials</string>
+    <string name="settings_keymap">Button mapping</string>
+    <string name="settings_keymap_sub">assign a button to each action</string>
+    <string name="settings_language">Language</string>
+    <string name="settings_language_sub">English / Español</string>
+    <string name="settings_about">About Huginn</string>
+    <string name="settings_about_sub">dual-screen explorer · read-only</string>
+    <string name="about_text">Huginn · dual-screen file explorer · v1 read-only</string>
+    <string name="cache_cleared">Cache cleared (thumbnails, external files and metadata)</string>
+    <string name="language_title">Language</string>
+    <string name="language_en">English</string>
+    <string name="language_es">Español</string>
+    <string name="current">current</string>
+    <string name="language_changed">Language changed</string>
+
+    <!-- Servers settings -->
+    <string name="servers_title">SMB servers</string>
+    <string name="servers_sub">%1$d %2$s · encrypted credentials</string>
+    <string name="server_one">server</string>
+    <string name="server_many">servers</string>
+    <string name="servers_add">Add server</string>
+    <string name="servers_hint">A edit · “Add server” to create · B back</string>
+    <string name="server_saved">Server “%1$s” saved</string>
+    <string name="server_deleted">Server deleted</string>
+    <string name="smb_not_configured">SMB not configured: add a server in Settings or check its credentials</string>
+    <string name="smb_bad_password">Could not use that server: password cannot be decrypted (edit it to re-enter it)</string>
+
+    <!-- Notices -->
+    <string name="notice_favorite_added">Added to favorites: %1$s</string>
+    <string name="notice_favorite_removed">Removed from favorites: %1$s</string>
+    <string name="notice_select_to_favorite">Select an item to mark it as favorite</string>
+    <string name="notice_views_folder_only">Views apply inside a folder</string>
+    <string name="notice_gallery_only">Gallery view: only in folders with images</string>
+    <string name="notice_sort_folder_only">Sorting applies inside a folder</string>
+    <string name="notice_prepare_failed">Could not prepare the file: %1$s</string>
+    <string name="notice_prepare_named">Could not prepare “%1$s” to open it</string>
+    <string name="notice_prepare_named_reason">Could not prepare “%1$s”: %2$s</string>
+    <string name="notice_open_location_failed">Could not open the location</string>
+    <string name="notice_unexpected">Unexpected error: %1$s</string>
+    <string name="notice_enter_folder_hint">A to run</string>
+    <string name="notice_no_app">No app can open “%1$s”</string>
+    <string name="notice_open_external_failed">No app to open “%1$s”</string>
+    <string name="dev_open_path_only_smb">open_path only accepts smb:// for now</string>
+    <string name="source_local">Local (SAF)</string>
+    <string name="source_smb">Network (SMB)</string>
+    <string name="server_add_sub">host · user · encrypted password</string>
+    <string name="form_host_required">Host is required</string>
+    <string name="form_password_required">Enter the user password</string>
+    <string name="anonymous">anonymous</string>
+    <string name="playback_error">Playback error</string>
+    <string name="track_disabled">Disabled</string>
+    <string name="track_label_audio">Audio</string>
+    <string name="track_label_subtitle">Subtitle</string>
+    <string name="external_launcher_error">Could not open with another app</string>
+    <string name="external_too_big">File too large to open from cache (limit %1$d MB)</string>
+    <string name="smb_err_auth">Wrong user or password</string>
+    <string name="smb_err_host">Cannot find the server (check the host)</string>
+    <string name="smb_err_route">No route to the server (same network?)</string>
+    <string name="smb_err_refused">The server refuses the connection (is SMB on?)</string>
+    <string name="smb_err_timeout">The server is not responding (timeout)</string>
+    <string name="smb_err_not_found">Shared resource does not exist</string>
+    <string name="smb_err_denied">Access denied to that folder</string>
+    <string name="smb_err_invalid">Invalid SMB address</string>
+    <string name="smb_err_generic">Could not connect to the server</string>
+    <string name="external_prepare_failed">Could not prepare the file to open it</string>
+    <string name="no_share">(no share)</string>
+</resources>
